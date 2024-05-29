@@ -43,7 +43,7 @@
 }
 .column7{
   
-   padding: 40px;
+   padding: 30px;
    width: 120%;
    height: 100%;
    
@@ -71,6 +71,11 @@
     border: none;
     font-size: 16px;
 }
+hr{
+  line-height: 5px;
+  margin-bottom: 1rem;
+  color: #00555a;
+}
 .column8{
     width: 100%;
     margin: 0 20px ;
@@ -94,4 +99,58 @@
       width: 100%;
 }
 
+.form_error_text{
+    color: red;
+}
 
+
+
+
+
+/* Floating label styles */
+
+.r_form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-floating input,
+  .form-floating textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+    border: none;
+  }
+  
+  .form-floating label {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #495057;
+  }
+
+  
+  .form-floating input:focus + label,
+  .form-floating textarea:focus + label,
+  .form-floating input:not(:placeholder-shown) + label,
+  .form-floating textarea:not(:placeholder-shown) + label {
+    font-size: 0.75rem;
+    transform: translateY(-1.5rem);
+    color: #495057;
+  }
+  
+  @media(max-width:700px){
+    .row5{
+      flex-direction: column;
+    }
+  }
