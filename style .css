@@ -1,0 +1,157 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+}
+.contact{
+    margin: 50px;
+}
+.row5{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
+
+.column6{
+    padding: 0 10px;
+    text-align: center;
+ 
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(7, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 50px;
+    border-radius: 50%;
+}
+.column6 div  .fa-solid{
+   font-size: 30px;
+   
+}
+
+.column6 p{
+    font-size: 18px;
+    
+}
+.column6 span{
+ 
+   display: inline-block;
+}
+.column7{
+  
+   padding: 30px;
+   width: 120%;
+   height: 100%;
+   
+   
+    background-color: #ffffff;
+    /* Shadow */
+    box-shadow:  -5px -5px 10px rgba(0, 0, 0, 0.1); /* inset, X-offset, Y-offset, Blur-radius, Color */
+  }
+  .column7 h1{
+    font-size: 37px;
+    color: #00555a;
+    padding: 20px;
+}
+  
+
+   
+
+.column7 input, .column7 textarea{
+    width: 100%;
+   
+    padding: 15px;
+    margin-bottom: 17px;
+    outline:none;
+    border-bottom:1px solid black;
+    border: none;
+    font-size: 16px;
+}
+hr{
+  line-height: 5px;
+  margin-bottom: 1rem;
+  color: #00555a;
+}
+.column8{
+    width: 100%;
+    margin: 0 20px ;
+    
+}
+.column8 img{
+    width:80%;
+   
+   
+    
+    
+}
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+.location iframe{
+      width: 100%;
+}
+
+.form_error_text{
+    color: red;
+}
+
+
+
+
+
+/* Floating label styles */
+
+.r_form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-floating input,
+  .form-floating textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+    border: none;
+  }
+  
+  .form-floating label {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #495057;
+  }
+
+  
+  .form-floating input:focus + label,
+  .form-floating textarea:focus + label,
+  .form-floating input:not(:placeholder-shown) + label,
+  .form-floating textarea:not(:placeholder-shown) + label {
+    font-size: 0.75rem;
+    transform: translateY(-1.5rem);
+    color: #495057;
+  }
+  
+  @media(max-width:700px){
+    .row5{
+      flex-direction: column;
+    }
+
+  }
